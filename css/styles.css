@@ -205,7 +205,7 @@ img {
     color: var(--primario);
     text-align: center;
 }
-@media (min-width: ){
+@media (min-width: 768px){
     .listado__numero{
         flex-basis: 20rem;
         text-align: right;
@@ -281,3 +281,14 @@ img {
         text-align: left;
     }
 } 
+.testimoniales{
+    background-color: var(--primario);
+}
+.testimonial__heading{
+    color: var(--blanco);
+    padding: 3rem;
+}
+.testimonial__texto{
+    background-color: var(--blanco);
+    font-size: 2rem;
+}
